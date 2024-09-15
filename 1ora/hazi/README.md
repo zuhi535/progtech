@@ -2,19 +2,28 @@
  
 -- A bemutatott telepÍtések (java 21, git, maven, intelliJ Idea Community Edition)
 -- Regisztráljunk a github-ra.
+
 -- Idea-ban csináljunk egy nem maven, sima Java Application projektet
+
 -- abban hozzunk létre egy ora01 csomagot, abban dolgozzunk
+
 -- tegyünk bele egy olyan main metódust, ami kiÍr egy "körte" stringet
+
 -- ezt tegyük verziókezeltté a github felhasználónknál, 
         lehet az Idea-ban is csinálni
+        
 -- készÍtsünk egy elágazást (branch-et)
+
 -- szerkesszük át az körtét barack-ká
+
 -- azt erre a másik ágra nyomjuk felhasználónknál
+
 -- próbáljuk meg a két ágat egyesÍteni (merge)
  
 nyomkövetésre példa
  
 van egy rendező Java-metódusunk, 
+~~~
    public static void bubbleSort() {
         int nums[] = {5, 1, 6, 2, 4, 3};
         int size = nums.length;
@@ -29,7 +38,7 @@ van egy rendező Java-metódusunk,
                 }
             }
         }
- 
+ ~~~
  
 nézzük meg, mi történik, szedjük ki a programból, hogyan néz ki a nums[] tömb tartalma, amikor belépünk a // %%-kal jelölt sorba, minden alkalommal, amikor belépünk
  
